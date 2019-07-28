@@ -1,0 +1,27 @@
+{
+  "name": "crabby-bot",
+  "version": "0.0.1",
+  "description": "Crabby Bot.",
+  "main": "bot/bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "uws": "^99.0.0"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discord",
+    "bot",
+    "discord.js",
+    "template"
+  ]
+}
