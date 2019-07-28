@@ -7,7 +7,7 @@ module.exports = {
     instances: 1,
     autorestart: true,
     watch: true,
-    ignore_watch: ["node_modules", "images"],
+    ignore_watch: ["node_modules", "images", ".git"],
     max_memory_restart: '500M'
   }]
 };
