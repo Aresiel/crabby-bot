@@ -55,6 +55,10 @@ class InfoCommand extends commando.Command {
                   {
                     name: "Source",
                     value: "[Click Here](https://github.com/Aresiel/crabby-bot)"
+                  },
+                  {
+                    name: "Website",
+                    value: "[Click Here](https://aresiel.github.io/crabby-bot/)"
                   }
 
                 ],
