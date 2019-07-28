@@ -37,7 +37,7 @@ class InfoCommand extends commando.Command {
                 return message.channel.send({embed: {
                   color: 3553598,
                   "thumbnail": {
-                    "url": client.user.displayAvatarURL
+                    "url": res.guild.me.user.displayAvatarURL
                   },
                   title: "Bot info",
                   fields: [{
@@ -54,7 +54,7 @@ class InfoCommand extends commando.Command {
                   },
                   {
                     name: "Source",
-                    value: "[Click Here](https://glitch.com/~crabby-bot)"
+                    value: "[Click Here](https://github.com/Aresiel/crabby-bot)"
                   }
 
                 ],

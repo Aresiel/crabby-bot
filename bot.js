@@ -1,6 +1,8 @@
 console.log("Starting bot...");  
-const token = process.env.BOT_TOKEN;
-const prefix = process.env.PREFIX;
+const botconfig = require('./botconfig.json');
+
+const token = botconfig.BOT_TOKEN;
+const prefix = botconfig.PREFIX;
 const Commando = require('discord.js-commando');
 const Discord = require('discord.js');
 const bot = new Commando.Client({

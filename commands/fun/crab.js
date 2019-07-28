@@ -22,7 +22,7 @@ class CrabPicCommand extends commando.Command {
         if (args == "info") {
             const embed = {
                 "color": 	3553598,
-                "description": "DM `Aresiel#0666` with the url and of the picture that isn't an crab.You can get the url by right clicking the picture and choosing `Copy Link`."
+                "description": "DM `Aresiel#0666` with the ID, you can find the ID in the footer."
             };
             return message.channel.send({
                 embed
@@ -38,7 +38,7 @@ class CrabPicCommand extends commando.Command {
             "title": "Crab! :crab: ",
             "color": 15031581,
             "footer": {
-                "text": "Is this not a crab? Run ?crab info for more information."
+                "text": "Is this not a crab? Run ?crab info for more information. ID: " + crabUrlId
             },
             "image": {
                 "url": crabUrl
