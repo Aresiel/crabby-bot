@@ -9,6 +9,7 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
+    "git-auto-pull": "^1.0.9",
     "node-fetch": "^2.6.0",
     "nodemon": "^1.19.1",
     "uws": "^99.0.0"
