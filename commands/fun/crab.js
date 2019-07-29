@@ -32,7 +32,8 @@ class CrabPicCommand extends commando.Command {
         let crabData = JSON.parse(fs.readFileSync(__dirname + "/../../images/crab.json").toString())
 
         let crabUrlId = Math.floor(Math.random() * crabData.length)
-        let crabUrl = crabData[crabUrlId - 1];
+        let crabUrl = crabData[crabUrlId];
+        crabUrlId++
 
         const embed = {
             "title": "Crab! :crab: ",
