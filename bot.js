@@ -28,7 +28,7 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 
 bot.on('ready', async () => {
   console.log(`Bot has started.`); 
-  bot.user.setActivity(`${process.env.PREFIX}help`, { type: 'WATCHING' })
+  bot.user.setActivity(`${botconfig.PREFIX}help`, { type: 'WATCHING' })
 })
 
 bot.on('message', function(message) { //Hidden commands here
