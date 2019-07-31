@@ -37,9 +37,8 @@ bot.on('message', function(message) { //Hidden commands here
     let cmd = messageArray[0].toUpperCase();
     let args = messageArray.slice(1);
   
-  if(message.channel.id == "604389323416010762" && message.author.id != "604725479517192212"){
-    message.delete()
-  }
+  if(message.channel.id == "604389323416010762" && message.author.id != "604725479517192212") message.delete() //Only usage of ?suggest in #suggestions
+  if(message.channel.id == "605365042954895380" && !message.content.startsWith("http")) message.delete() //Only urls in url-to-crab-pics channel
   
   
   

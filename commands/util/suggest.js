@@ -21,8 +21,7 @@ class SuggestCommand extends commando.Command {
 
       if(message.channel.id != "604389323416010762") return message.channel.send("Only use this in <#604389323416010762>!")
 
-      if(args.length < 5) return;
-      
+      if(args.length < 1) return;
         const embed = {
             "title": "Suggestion",
             "description": args,
@@ -35,6 +34,9 @@ class SuggestCommand extends commando.Command {
         };
         message.channel.send({
             embed
+        }).then(m => {
+        	m.react(message.guild.emojis.find(emoji => emoji.name === 'positivevote'));
+        	m.react(message.guild.emojis.find(emoji => emoji.name === 'negativevote'));
         });
 
     }
