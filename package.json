@@ -10,7 +10,7 @@
     "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
     "git-auto-pull": "^1.0.9",
-    "git-pull-or-clone": "^1.2.0",
+    "git-pull-or-clone": "^2.0.2",
     "node-fetch": "^2.6.1",
     "nodemon": "^1.19.1",
     "simple-git": "^1.124.0",
